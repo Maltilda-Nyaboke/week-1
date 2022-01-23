@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+body{
+    background-color: white;
+}
+/* nav{
+    float: right;
+    margin-left: 50px;
+    display: block; */
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 300px;
+    z-index: 2;
+}
+li{
+margin: 20px;
+display: inline;
+}
+li a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav{
+    margin-top: 50px;
+}
+
+.writings{
+    text-align: left;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.writings h2{
+    font-size: 50px;
+    margin-top: 300px;
+}
+.writings p{
+    font-size: 30px;
+    margin-top: 50px;
+}
+button{
+    margin-top: 100px;
+    background-color: orange;
+    border-radius: 25px;
+    border-style: none;
+    padding: 15px;
+    border-bottom: 100px;
+    border-top: 40px;
+    border-right: 200px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.trapezoid{
+    border-bottom: 1050px solid orange;
+    border-left: 65px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 55%;
+    float: right;
+    margin: 0;
+    z-index: 2;
+}
+/* header img{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+} */
+ .trapezoid img{
+    width: 40%;
+    margin-right: 500px;
+    margin-top: 150px;
+    position: absolute;
+    left: 650px;
+    z-index: 1;
+}
+
+header h2{
+    font-size: 60px;
+    display: inline;
+    margin-top: 120px;
+}
+header em{
+  color: #F6B400;
+}
+.row11{
+    float: right;
+    background-color:  #E1EBE6;
+    height: 500px;
+    margin-top: 0px;
+    width: 100%;
+}
+.row11 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+}
+.column{
+    float: right;
+    margin-right: 200px;
+    padding: 2px;
+    margin-top: 70px;
+    /* border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+     */
+
+}
+.column h3{
+    text-align: center;
+}
+.column p{
+    text-align: center;
+}
+.menu{
+    float: right;
+    height: 800px;
+    background-color: white;
+}
+.row-1{
+    float: right;
+}
+.column1{
+    float: right;
+    margin-right: 210px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border: inset;
+    padding-right: 0px;
+    
+
+}
+.column1 img{
+    height: 100px;
+}
+.column1 h3{
+    text-align: center;
+}
+.column1 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.row-2{
+    float: right;
+}
+.menu h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.menu c
+.column2{
+    float: right;
+    margin-right: 210px;
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border: inset;
+    padding-right: 0px;
+    margin-top: 150px;
+    
+
+}
+.column2 img{
+    height: 100px;
+}
+/* .column2{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    
+
+} */
+
+.decker{
+    height: 700px;
+    background-color:  #E1EBE6;
+    width: 100%;
+    margin-top: 0px;
+    float: left;
+    
+
+}
+
+ .image img{
+    float: right;
+    width: 35%;
+    position:absolute;
+    top: 2250px;
+    left: 700px;
+    z-index: 2;
+}
+.images img{
+    float: right;
+    width: 35%;
+    position:absolute;
+    top: 2250px;
+    left: 900px;
+    z-index: 1;
+}
+.decker b{
+    color: yellow;
+}
+.decker h2{
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.decker p{
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.mobile{
+    float: right;
+    background-color: #F6B400;
+    height: 600px;
+    width: 100%;
+}
+.mobile img{
+    float: right;
+    width: 30%;
+
+    padding: 20px;
+}
+.mobile h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.row3{
+    float: right;
+    height: 300px;
+    background-color: #E1EBE6;
+    width: 100%;
+    display: inline;
+    margin-left: 50px;
+}
+.column4{
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+footer{
+    float: right;
+    width: 100%;
+}
+footer h4{
+    display: inline;
+    margin: 50px;
+}
