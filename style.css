@@ -25,6 +25,7 @@ display: inline;
 ul img{
     height: 100px;
     width: 40%;
+    
 }
 li a{
     display: inline;
@@ -53,7 +54,7 @@ nav{
 }
 button{
     margin-top: 100px;
-    background-color: orange;
+    background-color: #F6B400;
     border-radius: 25px;
     border-style: none;
     padding: 15px;
@@ -65,7 +66,7 @@ button{
     cursor: pointer;
 }
 .trapezoid{
-    border-bottom: 1050px solid orange;
+    border-bottom: 1050px solid #F6B400;
     border-left: 65px solid transparent;
     border-right: 0px solid transparent;
     height: 0;
@@ -116,11 +117,16 @@ header em{
     margin-right: 200px;
     padding: 2px;
     margin-top: 70px;
-    /* border-radius: 25px;
+    border-radius: 25px;
     border-style: solid;
     border-width: 2px;
-     */
+    
 
+}
+h2{
+    margin-top: 1030px;
+    text-align: center;
+    font-size: 50px;
 }
 .column h3{
     text-align: center;
@@ -130,27 +136,15 @@ header em{
 }
 .menu{
     float: right;
-    height: 800px;
+    height: 1200px;
     background-color: white;
 }
 .row-1{
     float: right;
 }
-.column1{
-    float: right;
-    margin-right: 210px;
-    padding: 15px;
-    margin-top: 50px;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 2px;
-    border: inset;
-    padding-right: 0px;
-    
 
-}
 .column1 img{
-    height: 100px;
+    height: 150px;
 }
 .column1 h3{
     text-align: center;
@@ -193,7 +187,7 @@ header em{
     border-right: 40px;
     border-top: 50px;
     padding: 2px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: 50px;
     margin-bottom: 20px;
 }
@@ -203,9 +197,24 @@ header em{
 .end img h2{
     display: inline;
 }
+.column1{
+    float: right;
+    /* margin-right: 210px; */
+    margin: 50px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border: inset;
+    padding-right: 0px;
+    
+
+}
 .column2{
     float: right;
-    margin-right: 210px;
+    /* margin-right: 210px; */
+    margin: 50px;
     padding: 15px;
     margin-top: 0px;
     border-radius: 25px;
@@ -213,12 +222,26 @@ header em{
     border-width: 2px;
     border: inset;
     padding-right: 0px;
-    margin-top: 150px;
+    margin-top: 90px;
     
 
 }
+.menu .row-2 .column2 .end img{
+    float: right;
+    height: 45px;
+    background-color: #E1EBE6;
+    border-style: none;
+    border-radius: 10px;
+    border-bottom: 20px;
+    border-right: 40px;
+    border-top: 50px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
 .column2 img{
-    height: 100px;
+    height: 150px;
 }
 /* .column2{
     float: right;
@@ -247,63 +270,83 @@ header em{
     float: right;
     width: 35%;
     position:absolute;
-    top: 2250px;
-    left: 700px;
+    top: 2920px;
+    left: 800px;
     z-index: 2;
 }
 .images img{
     float: right;
     width: 35%;
     position:absolute;
-    top: 2250px;
+    top: 2900px;
     left: 900px;
     z-index: 1;
 }
 .decker b{
-    color: yellow;
+    color: #F6B400 ;
 }
 .decker h2{
-    font-size: 50px;
-    margin-left: 150px;
+    font-size: 60px;
+    margin-left: 100px;
     margin-top: 150px;
 }
 .decker p{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .decker .dot{
     border-radius: 50%;
-    height: 20px;
-    background-color: violet;
-    width: 20px;
-    margin-left: 100px;
-    margin-top: 100px;
+    height: 15px;
+    background-color: #F6B400;
+    width: 15px;
+    margin-left: 110px;
+    margin-top: 250px;
+}
+.decker .dot .dot{
+    border-radius: 50%;
+    height: 15px;
+    background-color: grey;
+    width: 15px;
+    margin-left: 40px;
+    margin-top: 250px;
 }
 .decker .dot1{
     border-radius: 50%;
-    height: 20px;
-    background-color: violet;
-    width: 20px;
-    margin-left: 200px;
-    margin-top: -50px;
+    height: 15px;
+    background-color: grey;
+    width: 15px;
+    margin-left: 80px;
+    margin-top: -15px;
+}
+.dot img{
+    height: 70px;
+    margin-left: 120px;
+    margin-top: -40px;
 }
 .mobile{
     float: right;
     background-color: #F6B400;
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 .mobile img{
-    float: right;
-    width: 30%;
-
-    padding: 20px;
+    float: left;
+    width: 200px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 150px;
 }
 .mobile h2{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 50px;
     font-size: 50px;
+}
+.mobile .png img{
+    float: right;
+    height: 500px;
+    margin-top: -20px;
+    margin-right: 30px;
 }
 .row3{
     float: right;
@@ -315,7 +358,7 @@ header em{
 }
 .column4{
     float: right;
-    margin-right: 300px;
+    margin-right: 280px;
     margin-top: 50px;
 }
 .column5{
@@ -334,6 +377,7 @@ header em{
 .column4 em{
   color: #F6B400;
 }
+
 footer{
     float: right;
     width: 100%;
