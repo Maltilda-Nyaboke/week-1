@@ -83,8 +83,7 @@ button{
 
 } */
  .trapezoid img{
-    width: 500px;
-    height: 500px;
+    width: 40%;
     margin-right: 500px;
     margin-top: 150px;
     position: absolute;
