@@ -22,6 +22,9 @@ li{
 margin: 20px;
 display: inline;
 }
+nav ul li a:hover{
+    border-bottom: 2px #E1EBE6 solid;
+}
 ul img{
     height: 100px;
     width: 40%;
@@ -64,6 +67,7 @@ button{
     color: white;
     font-weight: 700;
     cursor: pointer;
+    border-bottom-right-radius: 0px;
 }
 .trapezoid{
     border-bottom: 1050px solid #F6B400;
@@ -155,6 +159,16 @@ h2{
 }
 .row-2{
     float: right;
+}
+hr{
+    width: 110px;
+    height: 10px;
+   background-color: #F6B400;
+    margin-left: 680px;
+    border: 0px;
+}
+h2 strong{
+    color: #F6B400;
 }
 .menu h2{
     float: right;
@@ -289,6 +303,7 @@ h2{
     font-size: 60px;
     margin-left: 100px;
     margin-top: 150px;
+    text-align: left;
 }
 .decker p{
     font-size: 20px;
@@ -341,6 +356,7 @@ h2{
     margin-top: 100px;
     margin-left: 50px;
     font-size: 50px;
+    text-align: left;
 }
 .mobile .png img{
     float: right;
@@ -381,8 +397,10 @@ h2{
 footer{
     float: right;
     width: 100%;
+    margin-left: 40px;
 }
 footer h4{
     display: inline;
     margin: 50px;
+    
 }
