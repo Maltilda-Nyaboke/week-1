@@ -95,6 +95,7 @@ button{
     z-index: 1;
 }
 
+
 header h2{
     font-size: 60px;
     display: inline;
@@ -103,7 +104,7 @@ header h2{
 }
 header em{
   color: #F6B400;
-}
+
 .row11{
     float: right;
     background-color:  #E1EBE6;
