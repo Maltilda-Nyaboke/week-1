@@ -101,10 +101,11 @@ header h2{
     display: inline;
     margin-top: 120px;
     font-family: lobster;
+    color: #000;
 }
-header em{
+ em{
   color: #F6B400;
-
+}
 .row11{
     float: right;
     background-color:  #E1EBE6;
@@ -192,7 +193,7 @@ h2 strong{
     margin-right: 50px;
     margin-bottom: 20px;
 }
-.menu .row-1 .column1 .ends h2{
+.menu .row-1 .column1 .end h2{
     float: right;
     height: 45px;
     background-color: #E1EBE6;
@@ -380,6 +381,7 @@ h2 strong{
 }
 .column5{
     display: inline;
+    flex: 40px;
 }
 .column5 img{
     height: 20px;
@@ -393,6 +395,13 @@ h2 strong{
 }
 .column4 em{
   color: #F6B400;
+}
+.email{
+    float: right;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 30px;
 }
 
 footer{
