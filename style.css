@@ -108,24 +108,25 @@ header h2{
 }
 .row11{
     float: right;
-    background-color:  #E1EBE6;
+    background-color:  #F6FFFA;
     height: 500px;
     margin-top: 0px;
     width: 100%;
 }
 .row11 img{
-    width: 50px;
-    height: 50px;
-    margin-left: 70px;
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
 }
 .column{
     float: right;
     margin-right: 200px;
-    padding: 2px;
+    padding: 12px;
     margin-top: 70px;
     border-radius: 25px;
     border-style: solid;
     border-width: 2px;
+
     
 
 }
@@ -169,7 +170,7 @@ hr{
     margin-left: 680px;
     border: 0px;
 }
-h2 strong{
+h2 strong em{ 
     color: #F6B400;
 }
 .menu h2{
