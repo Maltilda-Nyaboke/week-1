@@ -101,9 +101,8 @@ header h2{
     display: inline;
     margin-top: 120px;
     font-family: lobster;
-    color: #000;
 }
- em{
+header h2 em{
   color: #F6B400;
 }
 .row11{
