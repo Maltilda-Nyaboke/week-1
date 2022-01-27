@@ -398,13 +398,7 @@ h2 strong em{
 .column4 em{
   color: #F6B400;
 }
-.email{
-    float: right;
-    width: 100px;
-    border-radius: 15px;
-    margin-top: 150px;
-    margin-left: 30px;
-}
+
 
 footer{
     flex-direction: row;
