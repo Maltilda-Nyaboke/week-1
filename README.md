@@ -1,7 +1,7 @@
 ## BURGER PALACE
 ---
 #### BY MALTILDA NYABOKE
-<<<<<<< HEAD
+
 
 ### It is a description of the Burger Palace's website.
 
